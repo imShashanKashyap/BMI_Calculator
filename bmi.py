@@ -17,7 +17,7 @@ def get_bmi_category(bmi):
 
 def main():
     st.title("BMI Calculator")
-
+    st.markdown("Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity.")
     st.write("BMI Categories:")
     st.write("- Underweight: BMI less than 18.5")
     st.write("- Normal weight: BMI 18.5 - 24.9")
@@ -37,6 +37,7 @@ def main():
         st.write(f"Hey there, your BMI is: {bmi}")
         st.write(f"BMI Category: {bmi_category}")
         st.write('Please share with your contacts if you find it easy and useful')
+        st.write('Know more about BMI: https://www.cdc.gov/healthyweight/assessing/index.html')
         st.markdown('Find the full code on my Github:  https://github.com/imShashanKashyap/BMI_Calculator')
         st.markdown('Visit to know more about me: https://imshashankashyap.github.io/')
 if __name__ == "__main__":
