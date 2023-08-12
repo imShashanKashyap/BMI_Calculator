@@ -34,8 +34,9 @@ def main():
         bmi = calculate_bmi(height_feet, height_inches, weight_kg)
         bmi_category = get_bmi_category(bmi)
 
-        st.write(f"Your BMI is: {bmi}")
+        st.write(f"Hey there, your BMI is: {bmi}")
         st.write(f"BMI Category: {bmi_category}")
+        st.write('Please share with your contacts if you find it easy and useful')
         st.markdown('Find the full code on my Github:  https://github.com/imShashanKashyap/BMI_Calculator')
         st.markdown('Visit to know more about me: https://imshashankashyap.github.io/')
 if __name__ == "__main__":
